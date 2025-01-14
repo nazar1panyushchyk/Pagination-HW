@@ -2,7 +2,7 @@ const paginationContainer = document.querySelector('.pagination');
 const prevButton = document.querySelector('.prev'); 
 const nextButton = document.querySelector('.next'); 
 console.log(prevButton, nextButton); 
-const url = `https://pixabay.com/api/?key=48165883-65f9cee792e12f4d73d6b41d8`; 
+const url = `https://pixabay.com/api/?key=48165883-65f9cee792e12f4d73d6b41d8&editors_choice=true`; 
 let page = 1;  
 let imagesPerPage = 3;  
 let imagesData = []; 
